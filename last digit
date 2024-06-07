@@ -1,0 +1,20 @@
+import java.util.*;
+class Demo
+{
+    public static void main(String []args)
+    {
+        Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int m=sc.nextInt();
+		int x=n%10;
+		int y=m%10;
+		if(x==y)
+		{
+			System.out.println(true);
+		}
+		else
+		{
+			System.out.println(false);
+		}
+	}
+}
