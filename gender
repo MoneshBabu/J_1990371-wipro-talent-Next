@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+class gender 
+	{
+    public static void main(String[] args) 
+		{
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        if (n < 58) {
+            System.out.println("The percentage of Female is - 8.2%");
+        } else if (n >= 58 && n < 100) {
+            System.out.println("The percentage of Female is - 9.2%");
+        } else if (n >= 100) {
+            System.out.println("The percentage of Male is - 10.5%");
+        } else {
+            System.out.println("The percentage of Male is - 8.4%");
+        }
+    }
+}
